@@ -1,0 +1,18 @@
+﻿Build started 25/06/2015 19:39:34.
+     1>Project "F:\RPGWorld2.0\RPGWorld2.0\RPGWorld2.0.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files (x86)\Windows Kits\10\References" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib Source.cpp
+         Source.cpp
+     1>Source.cpp(48): warning C4553: '==': operator has no effect; did you intend '='?
+     1>Source.cpp(51): warning C4553: '==': operator has no effect; did you intend '='?
+     1>Source.cpp(29): warning C4101: 'classe': unreferenced local variable
+     1>f:\rpgworld2.0\rpgworld2.0\source.cpp(45): warning C4700: uninitialized local variable 'estadoDoJogo' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\RPGWorld2.0\Debug\RPGWorld2.0.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\RPGWorld2.0\Debug\RPGWorld2.0.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Source.obj
+         "Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.obj"
+         RPGWorld2.0.vcxproj -> F:\RPGWorld2.0\Debug\RPGWorld2.0.exe
+     1>Done Building Project "F:\RPGWorld2.0\RPGWorld2.0\RPGWorld2.0.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.26
